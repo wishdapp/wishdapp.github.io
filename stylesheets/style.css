@@ -1,0 +1,66 @@
+
+#fancybox-inner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: 0;
+	outline: none;
+	overflow: hidden;
+}
+.fancy-bg {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	width: 10px;
+	height: 10px;
+	z-index: 1001;
+}
+
+#fancy-bg-n {
+	top: -10px;
+	left: 0;
+	width: 100%;
+}
+#fancy-bg-ne {
+	top: -10px;
+	right: -10px;
+}
+
+#fancy-bg-e {
+	top: 0;
+	right: -10px;
+	height: 100%;
+}
+
+#fancy-bg-se {
+	bottom: -10px;
+	right: -10px;
+}
+
+#fancy-bg-s {
+	bottom: -10px;
+	left: 0;
+	width: 100%;
+}
+
+#fancy-bg-sw {
+	bottom: -10px;
+	left: -10px;
+}
+
+#fancy-bg-w {
+	top: 0;
+	left: -10px;
+	height: 100%;
+}
+
+#fancy-bg-nw {
+	top: -10px;
+	left: -10px;
+}
+
+#fancy-bg-n,#fancy-bg-ne,#fancy-bg-e,#fancy-bg-se,#fancy-bg-s,#fancy-bg-sw,#fancy-bg-w,#fancy-bg-nw{ background: #369;opacity:.4}
